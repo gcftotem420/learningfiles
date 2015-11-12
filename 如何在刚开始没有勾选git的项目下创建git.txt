@@ -1,0 +1,14 @@
+1.如何在mac os系统下面显示隐藏文件
+defaults write com.apple.finder AppleShowAllFiles TRUE
+
+2.如何重启Finder
+killall Finder
+
+3.如何在刚开始没有勾选git的项目下创建git
+	1）进入创建的项目目录
+	2）git init
+	3）git add .
+	4）git commit -m “Initial commit”
+
+4.查询mac的ip地址
+ ifconfig | grep "inet" | grep -v 127.0.0.1	
